@@ -1,22 +1,36 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ConverterModule } from './converter';
+import { CoreModule } from './core/core.module';
+import { SiteRoutingModule } from './modules/site/site-rounting.module';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
+import { ApiPrefix } from './core/interceptors/api-prefix.interceptor';
+import { SiteModule } from './modules/site/site.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    ConverterModule
+    SiteRoutingModule,
+    CoreModule,
+    SiteModule
   ],
-  providers: [],
+  exports: [
+
+  ],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: ApiPrefix,
+      multi: true
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
