@@ -1,0 +1,39 @@
+/*
+    .eot -> IE9 Compat Modes 
+    .ttf -> Safari, Android, iOS
+*/
+
+@font-face {
+    font-family: 'TnaLogo';
+    src: url('src/assets/fonts/tna-logo/tna-logo.eot');
+    src: url('src/assets/fonts/tna-logo/tna-logo.ttf')  format('truetype'),
+         url('src/assets/fonts/tna-logo/tna-logo.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'swansea-regular';
+    src: url('src/assets/fonts/swansea/swansea-regular.eot'); 
+    src: url('src/assets/fonts/swansea/swansea-regular.ttf')  format('truetype'), 
+         url('src/assets/fonts/swansea/swansea-regular.woff') format('woff');
+};
+
+@font-face {
+    font-family: 'swansea-bold';
+    src: url('src/assets/fonts/swansea/swansea-bold.eot'); 
+    src: url('src/assets/fonts/swansea/swansea-bold.ttf')  format('truetype'), 
+         url('src/assets/fonts/swansea/swansea-bold.woff') format('woff');
+};
+
+@font-face {
+    font-family: 'swansea-bolditalic';
+    src: url('src/assets/fonts/swansea/swansea-bolditalic.eot'); 
+    src: url('src/assets/fonts/swansea/swansea-bolditalic.ttf')  format('truetype'), 
+         url('src/assets/fonts/swansea/swansea-bolditalic.woff') format('woff');
+};
+
+@font-face {
+    font-family: 'swansea-italic';
+    src: url('src/assets/fonts/swansea/swansea-italic.eot'); 
+    src: url('src/assets/fonts/swansea/swansea-italic.ttf')  format('truetype'), 
+         url('src/assets/fonts/swansea/swansea-italic.woff') format('woff');
+};

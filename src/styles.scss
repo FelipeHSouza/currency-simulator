@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "../src/assets/sass/_fonts";
+
+body {
+  font-family: swansea-regular !important;
+  margin: 0;
+}
+.basic-container {
+  padding: 30px;
+}
+.version-info {
+  font-size: 8pt;
+  float: right;
+  margin: 8px;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: swansea-bold !important;
+}
+
+.subtitle-pages {
+  width: 100%;
+  padding-top: 25px;
+  border-bottom: 1px solid;
+  border-radius: 2px;
+  float: left;
+}
+
+.box-content {
+  background-color: whitesmoke;
+}
+
+.blackline {
+  background-image: "src/assets/img/black-line.png";
+}

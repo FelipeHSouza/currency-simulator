@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SiteRoutingModule } from './site-rounting.module';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ApiPrefix } from 'src/app/core/interceptors/api-prefix.interceptor';
-import { CambioComponent } from './pages/cambio/cambio.component';
+import { HomeCompponent } from './home/home.component';
+import { ExchangeComponent } from './exchange/exchange.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    CambioComponent
+    HomeCompponent,
+    ExchangeComponent
   ],
   imports: [
-    BrowserModule,
-    SiteRoutingModule
+    BrowserModule
   ],
   exports: [
 

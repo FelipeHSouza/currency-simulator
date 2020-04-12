@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ApiPrefix } from 'src/app/core/interceptors/api-prefix.interceptor';
-import { CambioComponent } from './pages/cambio/cambio.component';
+import { HomeCompponent } from './home/home.component';
+import { ExchangeComponent } from './exchange/exchange.component';
 
-const routes: Routes = [{
-    path: 'cambio', component: CambioComponent
-}];
+const routes: Routes = [
+    { path: '', component: HomeCompponent },
+    { path: 'home', component: HomeCompponent },
+    { path: 'exchange', component: ExchangeComponent }
+];
 
 @NgModule({
     imports: [

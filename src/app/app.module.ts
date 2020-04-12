@@ -8,6 +8,9 @@ import { SiteRoutingModule } from './modules/site/site-rounting.module';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { ApiPrefix } from './core/interceptors/api-prefix.interceptor';
 import { SiteModule } from './modules/site/site.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from './shared/shared.module';
+import { AngularMaterialModule } from './modules/angular-material.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { SiteModule } from './modules/site/site.module';
     AppRoutingModule,
     SiteRoutingModule,
     CoreModule,
-    SiteModule
+    SiteModule,
+    SharedModule,
+    AngularMaterialModule,
+    BrowserAnimationsModule
   ],
   exports: [
 

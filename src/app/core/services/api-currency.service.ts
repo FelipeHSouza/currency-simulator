@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment'
-import { Cambio } from '../models/cambio.model';
 import { CurrencyResponse } from '../models/currency.response.model';
 
 
@@ -11,7 +10,6 @@ import { CurrencyResponse } from '../models/currency.response.model';
 })
 
 export class ApiCurrencyService {
-  cambio: Cambio
   base: string = 'USD'
 
   constructor(private http: HttpClient) { }
