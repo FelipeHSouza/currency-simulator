@@ -5,6 +5,9 @@ import { ApiPrefix } from 'src/app/core/interceptors/api-prefix.interceptor';
 import { HomeCompponent } from './home/home.component';
 import { ExchangeComponent } from './exchange/exchange.component';
 import { RouterModule } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -12,7 +15,11 @@ import { RouterModule } from '@angular/router';
     ExchangeComponent
   ],
   imports: [
-    BrowserModule
+    RouterModule,
+    BrowserModule,
+    MatIconModule,
+    MatListModule,
+    MatTableModule
   ],
   exports: [
 

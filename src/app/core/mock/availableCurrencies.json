@@ -1,0 +1,583 @@
+[
+    {
+        "id": 1,
+        "currency": "CAD",
+        "description": "Canadian dollar",
+        "countryOrTerritory": {
+            "description": "Canada",
+            "flagImg": "https://www.countryflags.io/ca/flat/64.png"
+        }
+    },
+    {
+        "id": 2,
+        "currency": "HKD",
+        "description": "Hong Kong dollar",
+        "countryOrTerritory": {
+            "description": "Hong Kong",
+            "flagImg": "https://www.countryflags.io/hk/flat/64.png"
+        }
+    },
+    {
+        "id": 3,
+        "currency": "ISK",
+        "description": "Icelandic krona",
+        "countryOrTerritory": {
+            "description": "Iceland",
+            "flagImg": "https://www.countryflags.io/is/flat/64.png"
+        }
+    },
+    {
+        "id": 4,
+        "currency": "PHP",
+        "description": "Philippine peso",
+        "countryOrTerritory": {
+            "description": "Philippines",
+            "flagImg": "https://www.countryflags.io/ph/flat/64.png"
+        }
+    },
+    {
+        "id": 5,
+        "currency": "DKK",
+        "description": "Danish krone",
+        "countryOrTerritory": [
+            {
+                "description": "Denmark",
+                "flagImg": "https://www.countryflags.io/dk/flat/64.png"
+            },
+            {
+                "description": "Greenland",
+                "flagImg": "https://www.countryflags.io/gl/flat/64.png"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "currency": "HUF",
+        "description": "Hungarian forint",
+        "countryOrTerritory": {
+            "description": "Hungary",
+            "flagImg": "https://www.countryflags.io/hu/flat/64.png"
+        }
+    },
+    {
+        "id": 7,
+        "currency": "CZK",
+        "description": "Czech koruna",
+        "countryOrTerritory": {
+            "description": "Czechia",
+            "flagImg": "https://www.countryflags.io/cz/flat/64.png"
+        }
+    },
+    {
+        "id": 8,
+        "currency": "AUD",
+        "description": "Australian dollar",
+        "countryOrTerritory": [
+            {
+                "description": "Australia",
+                "flagImg": "https://www.countryflags.io/au/flat/64.png"
+            },
+            {
+                "description": "Christmas Island",
+                "flagImg": "https://www.countryflags.io/cx/flat/64.png"
+            },
+            {
+                "description": "Cocos (Keeling) Islands",
+                "flagImg": "https://www.countryflags.io/cc/flat/64.png"
+            },
+            {
+                "description": "Kiribati",
+                "flagImg": "https://www.countryflags.io/ki/flat/64.png"
+            },
+            {
+                "description": "Nauru",
+                "flagImg": "https://www.countryflags.io/nr/flat/64.png"
+            },
+            {
+                "description": "Norfolk Island",
+                "flagImg": "https://www.countryflags.io/nf/flat/64.png"
+            },
+            {
+                "description": "Tuvalu",
+                "flagImg": "https://www.countryflags.io/tv/flat/64.png"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "currency": "RON",
+        "description": "Romanian leu",
+        "countryOrTerritory": {
+            "description": "Romania",
+            "flagImg": "https://www.countryflags.io/ro/flat/64.png"
+        }
+    },
+    {
+        "id": 10,
+        "currency": "SEK",
+        "description": "Swedish krona",
+        "countryOrTerritory": {
+            "description": "Sweden",
+            "flagImg": "https://www.countryflags.io/se/flat/64.png"
+        }
+    },
+    {
+        "id": 11,
+        "currency": "IDR",
+        "description": "Indonesian rupiah",
+        "countryOrTerritory": {
+            "description": "Indonesia",
+            "flagImg": "https://www.countryflags.io/id/flat/64.png"
+        }
+    },
+    {
+        "id": 12,
+        "currency": "INR",
+        "description": "Indian rupee",
+        "countryOrTerritory": {
+            "description": "India",
+            "flagImg": "https://www.countryflags.io/in/flat/64.png"
+        }
+    },
+    {
+        "id": 13,
+        "currency": "BRL",
+        "description": "Brazilian real",
+        "countryOrTerritory": {
+            "description": "Brazil",
+            "flagImg": "https://www.countryflags.io/br/flat/64.png"
+        }
+    },
+    {
+        "id": 14,
+        "currency": "RUB",
+        "description": "Russian ruble",
+        "countryOrTerritory": [
+            {
+                "description": "Russia",
+                "flagImg": "https://www.countryflags.io/ru/flat/64.png"
+            },
+            {
+                "description": "Belarus",
+                "flagImg": "https://www.countryflags.io/by/flat/64.png"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "currency": "HRK",
+        "description": "Croatian kuna",
+        "countryOrTerritory": {
+            "description": "Croatia",
+            "flagImg": "https://www.countryflags.io/hr/flat/64.png"
+        }
+    },
+    {
+        "id": 16,
+        "currency": "JPY",
+        "description": "Japanese yen",
+        "countryOrTerritory": {
+            "description": "Japan",
+            "flagImg": "https://www.countryflags.io/jp/flat/64.png"
+        }
+    },
+    {
+        "id": 17,
+        "currency": "THB",
+        "description": "Thai baht",
+        "countryOrTerritory": {
+            "description": "Thailand",
+            "flagImg": "https://www.countryflags.io/th/flat/64.png"
+        }
+    },
+    {
+        "id": 18,
+        "currency": "CHF",
+        "description": "Swiss franc",
+        "countryOrTerritory": [
+            {
+                "description": "Switzerland",
+                "flagImg": "https://www.countryflags.io/ch/flat/64.png"
+            },
+            {
+                "description": "Liechtenstein",
+                "flagImg": "https://www.countryflags.io/li/flat/64.png"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "currency": "SGD",
+        "description": "Singapore dollar",
+        "countryOrTerritory": {
+            "description": "Singapore",
+            "flagImg": "https://www.countryflags.io/sg/flat/64.png"
+        }
+    },
+    {
+        "id": 20,
+        "currency": "PLN",
+        "description": "Polish zloty",
+        "countryOrTerritory": {
+            "description": "Poland",
+            "flagImg": "https://www.countryflags.io/pl/flat/64.png"
+        }
+    },
+    {
+        "id": 21,
+        "currency": "BGN",
+        "description": "Bulgarian lev",
+        "countryOrTerritory": {
+            "description": "Bulgaria",
+            "flagImg": "https://www.countryflags.io/bg/flat/64.png"
+        }
+    },
+    {
+        "id": 22,
+        "currency": "TRY",
+        "description": "Turkish lira",
+        "countryOrTerritory": {
+            "description": "Turkey",
+            "flagImg": "https://www.countryflags.io/tr/flat/64.png"
+        }
+    },
+    {
+        "id": 23,
+        "currency": "CNY",
+        "description": "Chinese Yuan Renminbi",
+        "countryOrTerritory": {
+            "description": "China",
+            "flagImg": "https://www.countryflags.io/cn/flat/64.png"
+        }
+    },
+    {
+        "id": 24,
+        "currency": "NOK",
+        "description": "Norwegian krone",
+        "countryOrTerritory": {
+            "description": "Norway",
+            "flagImg": "https://www.countryflags.io/no/flat/64.png"
+        }
+    },
+    {
+        "id": 25,
+        "currency": "NZD",
+        "description": "New Zealand dollar",
+        "countryOrTerritory": [
+            {
+                "description": "New Zealand",
+                "flagImg": "https://www.countryflags.io/nz/flat/64.png"
+            },
+            {
+                "description": "Chatham Islands",
+                "flagImg": ""
+            },
+            {
+                "description": "Niue",
+                "flagImg": "https://www.countryflags.io/nu/flat/64.png"
+            },
+            {
+                "description": "Pitcairn Islands",
+                "flagImg": "https://www.countryflags.io/pn/flat/64.png"
+            },
+            {
+                "description": "Tokelau",
+                "flagImg": "https://www.countryflags.io/tk/flat/64.png"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "currency": "ZAR",
+        "description": "South African rand",
+        "countryOrTerritory": {
+            "description": "South Africa",
+            "flagImg": "https://www.countryflags.io/za/flat/64.png"
+        }
+    },
+    {
+        "id": 27,
+        "currency": "USD",
+        "description": "United States dollar",
+        "countryOrTerritory": [
+            {
+                "description": "USA",
+                "flagImg": "https://www.countryflags.io/us/flat/64.png"
+            },
+            {
+                "description": "American Samoa",
+                "flagImg": "https://www.countryflags.io/as/flat/64.png"
+            },
+            {
+                "description": "Bonaire",
+                "flagImg": "https://www.countryflags.io/bq/flat/64.png"
+            },
+            {
+                "description": "British Indian Ocean Territory",
+                "flagImg": "https://www.countryflags.io/io/flat/64.png"
+            },
+            {
+                "description": "British Virgin Islands",
+                "flagImg": "https://www.countryflags.io/vg/flat/64.png"
+            },
+            {
+                "description": "Caribbean Netherlands",
+                "flagImg": "https://www.countryflags.io/nl/flat/64.png"
+            },
+            {
+                "description": "Ecuador",
+                "flagImg": "https://www.countryflags.io/ec/flat/64.png"
+            },
+            {
+                "description": "El Salvador",
+                "flagImg": "https://www.countryflags.io/sv/flat/64.png"
+            },
+            {
+                "description": "Guam",
+                "flagImg": "https://www.countryflags.io/gu/flat/64.png"
+            },
+            {
+                "description": "Marshall Islands",
+                "flagImg": "https://www.countryflags.io/mh/flat/64.png"
+            },
+            {
+                "description": "Micronesia",
+                "flagImg": "https://www.countryflags.io/fm/flat/64.png"
+            },
+            {
+                "description": "Northern Mariana Islands",
+                "flagImg": "https://www.countryflags.io/mp/flat/64.png"
+            },
+            {
+                "description": "Palau",
+                "flagImg": "https://www.countryflags.io/pw/flat/64.png"
+            },
+            {
+                "description": "Panama",
+                "flagImg": "https://www.countryflags.io/pa/flat/64.png"
+            },
+            {
+                "description": "Puerto Rico",
+                "flagImg": "https://www.countryflags.io/pr/flat/64.png"
+            },
+            {
+                "description": "Bonaire, Sint Eustatius and Saba",
+                "flagImg": "https://www.countryflags.io/bq/flat/64.png"
+            },
+            {
+                "description": "Timor-Leste",
+                "flagImg": "https://www.countryflags.io/tl/flat/64.png"
+            },
+            {
+                "description": "Turks and Caicos Islands",
+                "flagImg": "https://www.countryflags.io/tc/flat/64.png"
+            },
+            {
+                "description": "US Virgin Islands",
+                "flagImg": "https://www.countryflags.io/vi/flat/64.png"
+            },
+            {
+                "description": "Wake Island",
+                "flagImg": "#"
+            },
+            {
+                "description": "Zimbabwe",
+                "flagImg": "https://www.countryflags.io/zw/flat/64.png"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "currency": "MXN",
+        "description": "Mexican peso",
+        "countryOrTerritory": {
+            "description": "Mexico",
+            "flagImg": "https://www.countryflags.io/mx/flat/64.png"
+        }
+    },
+    {
+        "id": 29,
+        "currency": "ILS",
+        "description": "Israeli new shekel",
+        "countryOrTerritory": {
+            "description": "Israel",
+            "flagImg": "https://www.countryflags.io/il/flat/64.png"
+        }
+    },
+    {
+        "id": 30,
+        "currency": "GBP",
+        "description": "Pound sterling",
+        "countryOrTerritory": [
+            {
+                "description": "UK",
+                "flagImg": "https://www.countryflags.io/uk/flat/64.png"
+            },
+            {
+                "description": "South Georgia Island",
+                "flagImg": "https://www.countryflags.io/gs/flat/64.png"
+            },
+            {
+                "description": "Tristan da Cunha",
+                "flagImg": "#"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "currency": "KRW",
+        "description": "South Korean won",
+        "countryOrTerritory": {
+            "description": "South Korea",
+            "flagImg": "https://www.countryflags.io/kr/flat/64.png"
+        }
+    },
+    {
+        "id": 32,
+        "currency": "MYR",
+        "description": "Malaysian ringgit",
+        "countryOrTerritory": {
+            "description": "Malaysia",
+            "flagImg": "https://www.countryflags.io/my/flat/64.png"
+        }
+    },
+    {
+        "id": 33,
+        "currency": "EUR",
+        "description": "European euro",
+        "countryOrTerritory": [
+            {
+                "description": "Akrotiri and Dhekelia",
+                "flagImg": "#"
+            },
+            {
+                "description": "Aland Islands",
+                "flagImg": "https://www.countryflags.io/ax/flat/64.png"
+            },
+            {
+                "description": "Andorra",
+                "flagImg": "https://www.countryflags.io/ad/flat/64.png"
+            },
+            {
+                "description": "Austria",
+                "flagImg": "https://www.countryflags.io/at/flat/64.png"
+            },
+            {
+                "description": "Cyprus",
+                "flagImg": "https://www.countryflags.io/cy/flat/64.png"
+            },
+            {
+                "description": "Estonia",
+                "flagImg": "https://www.countryflags.io/ee/flat/64.png"
+            },
+            {
+                "description": "Finland",
+                "flagImg": "https://www.countryflags.io/fi/flat/64.png"
+            },
+            {
+                "description": "France",
+                "flagImg": "https://www.countryflags.io/fr/flat/64.png"
+            },
+            {
+                "description": "French Guiana",
+                "flagImg": "https://www.countryflags.io/gf/flat/64.png"
+            },
+            {
+                "description": "Germany",
+                "flagImg": "https://www.countryflags.io/de/flat/64.png"
+            },
+            {
+                "description": "Greece",
+                "flagImg": "https://www.countryflags.io/gr/flat/64.png"
+            },
+            {
+                "description": "Guadeloupe",
+                "flagImg": "https://www.countryflags.io/gp/flat/64.png"
+            },
+            {
+                "description": "Ireland",
+                "flagImg": "https://www.countryflags.io/ie/flat/64.png"
+            },
+            {
+                "description": "Italy",
+                "flagImg": "https://www.countryflags.io/it/flat/64.png"
+            },
+            {
+                "description": "Kosovo",
+                "flagImg": "https://www.countryflags.io/xk/flat/64.png"
+            },
+            {
+                "description": "Latvia",
+                "flagImg": "https://www.countryflags.io/lv/flat/64.png"
+            },
+            {
+                "description": "Lithuania",
+                "flagImg": "https://www.countryflags.io/lt/flat/64.png"
+            },
+            {
+                "description": "Luxembourg",
+                "flagImg": "https://www.countryflags.io/lu/flat/64.png"
+            },
+            {
+                "description": "Malta",
+                "flagImg": "https://www.countryflags.io/mt/flat/64.png"
+            },
+            {
+                "description": "Martinique",
+                "flagImg": "https://www.countryflags.io/mq/flat/64.png"
+            },
+            {
+                "description": "Mayotte",
+                "flagImg": "https://www.countryflags.io/yt/flat/64.png"
+            },
+            {
+                "description": "Monaco",
+                "flagImg": "https://www.countryflags.io/mc/flat/64.png"
+            },
+            {
+                "description": "Montenegro",
+                "flagImg": "https://www.countryflags.io/me/flat/64.png"
+            },
+            {
+                "description": "Portugal",
+                "flagImg": "https://www.countryflags.io/pt/flat/64.png"
+            },
+            {
+                "description": "Reunion",
+                "flagImg": "https://www.countryflags.io/re/flat/64.png"
+            },
+            {
+                "description": "Saint Barthelemy",
+                "flagImg": "https://www.countryflags.io/bl/flat/64.png"
+            },
+            {
+                "description": "Saint Martin",
+                "flagImg": "https://www.countryflags.io/mf/flat/64.png"
+            },
+            {
+                "description": "Saint Pierre and Miquelon",
+                "flagImg": "https://www.countryflags.io/pm/flat/64.png"
+            },
+            {
+                "description": "San Marino",
+                "flagImg": "https://www.countryflags.io/sm/flat/64.png"
+            },
+            {
+                "description": "Slovakia",
+                "flagImg": "https://www.countryflags.io/sk/flat/64.png"
+            },
+            {
+                "description": "Slovenia",
+                "flagImg": "https://www.countryflags.io/si/flat/64.png"
+            },
+            {
+                "description": "Spain",
+                "flagImg": "https://www.countryflags.io/es/flat/64.png"
+            },
+            {
+                "description": "Vatican City",
+                "flagImg": "https://www.countryflags.io/va/flat/64.png"
+            }
+        ]
+    }
+]

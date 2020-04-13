@@ -31,6 +31,7 @@ export interface Rates {
     GBP: number;
     KRW: number;
     MYR: number;
+    EUR: number;
 }
 
 export interface CurrencyResponse {
